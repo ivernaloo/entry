@@ -17,7 +17,7 @@
         <li><a href="http://stagng.editor.n.xiaomi.com/desk/index?theme_id=10001&theme_status=1&userId=2234383&debug=staging">主题(staging)</a></li>
         <li>本地-EVO环境</li>
                 <li><a href="http://evo.xiaomi.com/lock/lock.jsp?theme_id=10001&theme_status=1&userId=2234383&debug=local">锁屏编辑</a></li>
-                <li><a href="http://evo.xiaomi.com/theme.jsp?theme_id=10001&theme_status=1&userId=2234383&debug=local">主题编辑</a></li>
+                <li><a href="http://evo.xiaomi.com/theme.jsp?theme_id=10001&theme_status=1&userId=2234383&step_id=5&debug=local">主题编辑</a></li>
                 <li><a href="http://evo.xiaomi.com/csp.jsp?theme_id=10001&step_id=13&theme_status=1&userId=2234383&debug=local">CSP编辑</a></li>
                 <li><a href="http://evo.xiaomi.com/pub.jsp?theme_id=10001&theme_status=1&userId=2234383&debug=local">配制预览</a></li>
         <li><a href="project/colorRender/index.html">取色器</a></li>
