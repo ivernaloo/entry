@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<input type="button" id="convert" value="convert"/><br/>
+<textarea rows="50" cols="50" id="input"></textarea>
+<textarea rows="50" cols="50" id="output"></textarea>
+<script type="text/javascript">
+    var btn = document.getElementById("convert")
+    btn.addEventListener("click",function(){
+        var _input = document.getElementById("input"),
+            _output = document.getElementById("output");
+
+//div = document.createElement("div");
+//div.appendChild(document.createTextNode(input.value));
+
+        _output.value = _input.value.replace(/(\"|\')/g, function($1){
+            return "\\"+$1
+        });
+    })
+</script>
+</body>
+</html>

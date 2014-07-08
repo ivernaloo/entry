@@ -1,0 +1,42 @@
+.container-box { background-color: #99BBE8; }
+.container-title { background:  url(img_6.jpg) repeat-x;  height: 26px; _height: 21px; overflow: hidden; zoom: 1; line-height: 26px; vertical-align: middle; _padding-top: 5px;  }
+.container-title-nav { border: 1px solid #99BBE8; margin-bottom: 1px; }
+.container-title a,.container-title span { line-height: 26px; vertical-align: middle; }
+.container-title img { vertical-align: middle; }
+.container-title .left { font-size: 12px; margin-left: 10px; _display: inline; color: #666; font-weight: bold;  }
+.container-title-sub { font-weight: normal; margin-left: 10px; }
+
+.container--sub-title { background: url(sub-title.jpg) repeat-x; height:23px; line-height: 23px; vertical-align: middle; font-weight: bold; font-size: 12px; text-indent: 1em; text-align: left; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;  color: #999;}
+.container-title img { vertical-align:middle; margin-left: 10px; }
+
+.table-decoration-search { color: #2b2b2b; font-size: 12px; line-height: 180%; text-align: left; }
+.table-decoration-search input { border: 1px solid #ccc; margin-left: 5px; width: 250px; height: 20px; }
+.table-decoration-search input:hover { border: 1px solid #39C; }
+input.search-btn { background: url(search-btn.png) no-repeat; height: 22px; width: 79px; border:none;  }
+input:hover.search-btn { border: none; background: url(search-btn-o.png) no-repeat;  }
+
+
+.table-list { font-size: 12px; line-height: 200%; text-indent: 1em; text-align: left; vertical-align: middle; }
+.table-list td { padding: 5px 0px; padding-right: 0px; vertical-align: top; }
+.table-list-cell td { background: url(dash.png) no-repeat right 50%; }
+.table-list-cell td:last-child { background-image: none; }
+.table-list img { vertical-align: middle; margin-right: 5px; }
+.table-list a { margin: 3px; text-decoration: none; color: #000; }
+.table-list a:hover { text-decoration: underline; }
+.table-list .num-left { padding-right: 5px; border-right: 1px solid #ccc; }
+.table-list .num-right { padding-left: 5px; }
+.table-list .count-title { font-weight:bold; }
+.table-list .count-title-des { margin-left: 5px; margin-right: 5px; font-weight: normal; color: #666; }
+
+.table-textArea { width: 250px; height: 200px; border: 1px solid #ccc; margin-left: 5px; }
+textarea:hover.table-textArea  { border: 1px solid #39C; }
+
+#content-box { margin: 5px; }
+.container-box {  border-right: 2px solid #ccc; border-bottom: 2px solid #ccc; }
+body {
+background:url("http://shared.ydstatic.com/images/skins/default/youdaoskin.jpg") no-repeat scroll center top transparent;
+}
+html {
+background:url("http://shared.ydstatic.com/images/skins/default/skin-index-x.jpg?200912151") repeat-x scroll 0 0 #FFFFFF;
+height:100%;
+}

@@ -1,0 +1,95 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="众善，众筹，捐助，爱心，慈善，项目">
+    <title>众善众筹</title>
+    <link rel="stylesheet" type="text/css" href="http://www.allheart.cn/css/bootstrap3.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="http://www.allheart.cn/js/jquery.js"></script>
+    <script type="text/javascript" src="http://www.allheart.cn/js/bootstrap3.js"></script>
+</head>
+<body>
+<div class="topimg">
+    <div style="width:100%;min-width:1024px;">
+        <ul class="userinfo">
+            <li style="padding-right: 15px;"><a href="#" ></a></li>
+            <li id="logout" class="logout"><a href=http://www.allheart.cn/index.php/action/logout >退出</a></li>
+        </ul>
+    </div>
+</div>
+<div class="top">
+
+    <div class="topbar1">
+        <div class="logoimg"><span><img alt="众善LOGO" src="img/allheart/logo.png.jpg"></span></div>
+        <div class="logoinfo">
+            <ul style="font-size: 15px;padding-top: 15px;font-weight: bold;" class="nav nav-pills">
+                <li><a target="_self" href="http://www.allheart.cn/">首页</a></li>
+                <li><a href="#">我要捐助</a></li>
+                <li><a href="#">常见问题</a></li>
+                <li><a href="#">关于我们</a></li>
+                <li style="padding-right:10px;float:right;"><input type="button" value="登录" onclick="javascrtpt:window.location.href='http://www.allheart.cn/index.php/welcome/login'" style="width: 100px;" class="btn btn-primary" id="goin">
+                </li>
+                <li style="padding-right:10px;float:right;"><input type="button" value="注册" onclick="javascrtpt:window.location.href='http://www.allheart.cn/index.php/welcome/register'" style="width: 100px;" class="btn btn-primary" id="goout">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="about-bg">
+    <div class="all">
+        <div class="main clearfix">
+            <div class="wrap">
+                <div class="about-content clearfix">
+                    <div class="menu-nav">
+                        <ul class="clearfix">
+                            <li class="select"><a href="/help-about" class="about icon-ast">关于众筹</a></li>
+                            <li><a href="/help-contact" class="contact icon-ast">联系我们</a></li>
+                            <li><a href="/help-center" class="help icon-ast">帮助中心</a></li>
+                            <li><a href="/help-team" class="intro icon-ast">团队介绍</a></li>
+                            <li><a href="/help-term" class="service icon-ast">服务协议</a></li>
+                            <li><a href="/help-specification" class="service icon-ast">项目发起规范</a></li>
+                            <li><a href="/help-announcement" class="service icon-ast">众筹公告</a></li>
+                        </ul>
+                    </div>
+                    <div class="maincontent">
+                        <div class="tit-wrap"><h3>关于众筹</h3></div>
+                        <div class="content-box">
+                            <style>.con-article p{line-height:22px !important;}</style><div class="con-article"><p>众筹，译自国外crowdfunding，即大众筹资或群众筹资。现代众筹指通过互联网方式发布筹款项目并募集资金。筹款项目成功后，项目发起人将会给予支持者对等的回报。回报方式可以是实物，也可以是服务。</p>
+                            <h3>关于众筹网</h3>
+                            <br>
+                            <p>众筹网是中国最具影响力的众筹平台，是网信金融集团旗下的众筹模式网站，为项目发起者提供募资、投资、孵化、运营一站式综合众筹服务。<br>
+                                <br>
+                                自2013年2月成立以来，已上线众筹网、众筹制造、开放平台、众筹国际、金融众筹、股权众筹六大板块。其中，众筹网联合长安保险推出的“爱情保险”项目创出了国内融资额最高众筹记录，筹资额超过600万元！“快男电影”项目近4万人次参与，创出投资人最多的记录。</p>
+                            <h3>众筹规则</h3>
+                            <br>
+                            <p><b>筹资</b>，筹资项目必须在发起人预设的时间内达到或超过目标金额才算成功。<br>
+                                <b>未达成</b>，没有达到目标的项目，支持款项将全额退回给所有支持者。<br>
+                                <b>达成</b>，网友将得到发起人预先承诺的回报。</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<input type="hidden" name="login_status" id="login_status" value=>
+</body>
+</html>
+<script type="text/javascript">
+    var a = document.getElementById('login_status').value;
+    if(a == ''){
+        document.getElementById('logout').style.display = "none";
+        document.getElementById('goin').type = "button";
+        document.getElementById('goout').type = "button";
+    }
+    else {
+        document.getElementById('logout').style.display = "block";
+        document.getElementById('goin').type = "hidden";
+        document.getElementById('goout').type = "hidden";
+    }
+</script>

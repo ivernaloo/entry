@@ -1,0 +1,13 @@
+body ul {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar-fixed-bottom {
+  margin-bottom: 0px;
+}
+#aloo_date {
+  width: 15%;
+  position: fixed;
+  top: 100px;
+  left: 0px;
+}

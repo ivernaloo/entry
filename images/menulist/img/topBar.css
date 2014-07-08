@@ -1,0 +1,12 @@
+.nav-menu { position:relative; background: url(img_112.jpg) no-repeat; height: 52px; zoom: 1; overflow:hidden;  }
+.nav-logo { position:absolute; left: 11px; top: 13px; }
+.nav-menu-bar { padding-left: 10px; color: #fff; height:30px; line-height: 30px; vertical-align:middle; font-size: 12px; text-align: left;  background:url(img_5.jpg) repeat-x; margin-left: 180px; margin-top: 22px; }
+.nav-menu-bar a { color:#fff; text-decoration: none; }
+.nav-menu-bar a:hover { text-decoration: underline; }
+.login-info { position: absolute; right: 5px; top:0px; font-size: 12px; color: #fff; }
+.login-info a { color: #fff; margin-right: 5px; font-weight: bold; text-decoration: none; }
+.login-info a:hover { color: #fff; text-decoration: underline; }
+a.search-btn { margin-right: 5px; font-size: 12px; text-decoration: none; display: inline-block; display: -moz-inline-stack; zoom:1; *display: inline;background: url(search-btn-o.png) no-repeat; width:79px; height:22px; line-height: 22px; vertical-align: middle; text-align: center; color: #000;  }
+a.search-btn:hover { color: #069; font-weight: bold; text-decoration: underline; }
+a.search-btn-on { color: #069; font-weight: bold; margin-right: 5px; font-size: 12px; text-decoration: none; display: inline-block; display: -moz-inline-stack; zoom:1; *display: inline;background: url(search-btn-o.png) no-repeat; width:79px; height:22px; line-height: 22px; vertical-align: middle; text-align: center;  }
+.subMenu-bar { text-align: left; padding: 4px;  }

@@ -1,0 +1,28 @@
+.gallery {
+    background: #ececec;
+    overflow:hidden;
+    width:620px;
+}
+
+.gallery > img {
+    margin: 20px 20px 0;
+    padding: 0;
+}
+
+.gallery ul {
+    list-style-type: none;
+    margin:20px;
+    padding:0;
+    overflow:hidden;
+    width: 900px;
+}
+.gallery li {
+    float:left;
+    margin: 0 10px;
+}
+.gallery li:first-of-type {
+    margin-left:0;
+}
+.gallery li:last-of-type {
+    margin-right: 0;
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>小米系统 WAP站</title>
+    <meta name="viewport" content="width=1000,target-densitydpi=high-dpi,user-scalable=yes;"/>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/xtmobile.css?ver=$revxxx$"/>
+    <link rel="shortcut icon" href="http://i1.ml.mi-img.com/img/miui/miuilite/img/favicon.ico" type="image/x-icon"/>
+    <script type="text/javascript">
+        function isWeiXin(){
+            var ua = window.navigator.userAgent.toLowerCase();
+            if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+                return true;
+            }else{
+                return false;
+            }
+        }
+        window.onload = function(){
+            if( isWeiXin() ){
+                document.getElementById("e-btn-download").addEventListener("touchstart",function(){
+                    document.getElementById("wx-tip").style.display="block";
+                    document.getElementById("wx-mask").style.display="block";
+                    return false;
+                })
+
+                document.getElementById("wx-mask").addEventListener("touchstart",function(){
+                    console.info("dddd")
+                    document.getElementById("wx-tip").style.display="none";
+                    document.getElementById("wx-mask").style.display="none";
+                    return false;
+                })
+            }
+        }
+
+    </script>
+</head>
+<body>
+<div class="wx-tip" id="wx-tip">
+    <h2>请用浏览器找开下载</h2>
+    <p>1，点击右上角的图标 <img src="http://i1.ml.mi-img.com/img/miui/miuilite/img/guide/wx/download1.png" width="50" alt=""/></p>
+    <p>2，选择在浏览器中打开即可下载小米系统客户端 <img src="http://i1.ml.mi-img.com/img/miui/miuilite/img/guide/wx/download2.png" width="50" alt=""/></p>
+    <img class="wx-guide" src="http://i1.ml.mi-img.com/img/miui/miuilite/img/guide/wx/arrow.jpg" alt=""/>
+</div>
+<div class="wx-mask" id="wx-mask">
+
+</div>
+<div class="b-intro">
+    <div class="b-intro-con">
+        <img src="http://i1.ml.mi-img.com/img/miui/miuilite/img/2dcode-13.jpg" class="e-2d"/>
+        <a href="http://apkupdate.miui.com/miuilite/MiuiLite_1.0.1_1000.apk" class="e-btn-download" id="e-btn-download">公测版下载 <!--<span class="e-download-size">(25.6M)</span>--></a>
+        <a href="http://www.miui.com/forum-393-1.html" class="e-btn-bbs">互动社区</a>
+        <span class="e-version">大小 : 27.9MB <span class="e-dash"></span> 版本号: 1.0.1公测版</span>
+        <span class="e-describe">暂仅支持android 4.0 以上非MIUI机型 <a href="#system" target="_self">查看配置</a></span>
+        <div class="e-links">
+            <a href="http://www.miui.com/thread-1679125-1-1.html">更新日志</a>
+            <a href="http://www.miui.com/thread-1695480-1-1.html">支持机型</a>
+            <a href="http://www.miui.com/thread-1649403-1-1.html">常见问题</a>
+        </div>
+    </div>
+</div>
+
+<div class="b-feature">
+    <div class="b-item">
+        <img class="e-feature-image" src="http://i1.ml.mi-img.com/img/miui/miuilite/img/icon_theme1_mobile.png"/>
+        <h2>MIUI桌面</h2>
+        <p>海量精品主题</p>
+        <p>对手机进行深度美化</p>
+
+    </div>
+    <div class="b-item">
+        <img class="e-feature-image" src="http://i1.ml.mi-img.com/img/miui/miuilite/img/icon_phone1_mobile.png"/>
+        <h2>MIUI 拨号</h2>
+        <p>方便的T9拼音搜索方式</p>
+        <p>最快找到联系人拨打电话</p>
+
+    </div>
+    <div class="b-item">
+        <img class="e-feature-image" src="http://i1.ml.mi-img.com/img/miui/miuilite/img/icon_contacts1_mobile.png"/>
+        <h2>MIUI联系人</h2>
+        <p>话费充值一步到位</p>
+        <p>吃喝玩乐一网打尽</p>
+    </div>
+
+
+    <div class="b-item">
+
+        <img class="e-feature-image" src="http://i1.ml.mi-img.com/img/miui/miuilite/img/icon_sms1_mobile.png"/>
+        <h2>MIUI短信</h2>
+        <p>免费发网络短信</p>
+        <p>强大的黑名单拦截功能</p>
+    </div>
+
+    <div class="b-item">
+        <a href="http://i.xiaomi.com">
+            <img class="e-feature-image" src="http://i1.ml.mi-img.com/img/miui/miuilite/img/icon_cloud1_mobile.png"/>
+        </a>
+        <h2><a href="http://i.xiaomi.com">小米云服务<img class="e-feature-more" src="http://i1.ml.mi-img.com/img/miui/miuilite/img/icon_arrow_1_mobile.png"/></a></h2>
+        <p>云端保留联系人、短信与通话记录</p>
+        <p>再也不怕丢数据</p>
+    </div>
+
+    <div class="b-item">
+        <a href="http://www.miui.com/type-393-2187.html">
+            <img class="e-feature-image" src="http://i1.ml.mi-img.com/img/miui/miuilite/img/icon_more1_mobile.png"/>
+        </a>
+        <h2><a href="http://www.miui.com/type-393-2187.html">更多功能<img class="e-feature-more" src="http://i1.ml.mi-img.com/img/miui/miuilite/img/icon_arrow_2_mobile.png"/></a></h2>
+        <p class="">更多功能</p>
+        <p class="">由你决定</p>
+    </div>
+</div>
+<div class="e-dash-horizontal"></div>
+<div class="b-compatible">
+    <a name="system" class="system">&nbsp</a>
+    <div class="b-compatible-con">
+        <div class="left">
+            <img src="http://i1.ml.mi-img.com/img/miui/miuilite/img/phone_compatible_mobile.png" alt=""/>
+        </div>
+        <div class="left b-compatible-describe">
+            <h2>建议系统要求</h2>
+            <p>Android 4.0及以上，非MIUI ROM</p>
+            <p>手机内存: 2G及以上</p>
+            <p>手机可用存储卡空间: 100M</p>
+        </div>
+    </div>
+    <div class="b-compatible-con">
+        <div class="left">
+            <img src="http://i1.ml.mi-img.com/img/miui/miuilite/img/phone_right_mobile.png" alt=""/>
+        </div>
+        <div class="left b-compatible-describe">
+            <h2>最低系统要求</h2>
+            <p>Android 4.0及以上，非MIUI ROM</p>
+            <p>手机内存: 1G</p>
+            <p>手机可用存储卡空间: 80M</p>
+        </div>
+    </div>
+</div>
+<div class="e-dash-horizontal"></div>
+<!--
+<div class="e-function-title">更多功能，由你决定</div>
+<div class="e-function-con">
+    <a href="#" class="first-item">论坛建议</a>
+    <a href="#" >内测申请</a>
+</div>
+<div class="e-dash-horizontal"></div>-->
+<ul class="e-link">
+    <!--
+        <li><a href="http://www.miui.com/thread-1678853-1-1.html">活动公告</a></li>
+    -->
+    <li><a href="intro">活动公告</a></li>
+    <li><a href="mailto:zhaodekai@xiaomi.com">商务合作</a></li>
+    <li><a href="http://www.miui.com/type-393-2188.html">问题反馈</a></li>
+    <!--    <li><a href="#"><img src="http://i1.ml.mi-img.com/img/miui/miuilite/img/icon_weibo.png"/></a></li>
+        <li><a href="#"><img src="http://i1.ml.mi-img.com/img/miui/miuilite/img/icon_qq.png"/></a></li>-->
+</ul>
+<div style="display: none;">
+    <script src="http://s22.cnzz.com/z_stat.php?id=1000348727&web_id=1000348727" language="JavaScript"></script>
+</div>
+
+
+</body>
+</html>

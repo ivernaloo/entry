@@ -1,0 +1,47 @@
+.icon-by-date {
+	background-image:url(icon-by-date.gif) !important;
+}
+.icon-by-category {
+	background-image:url(icon-by-category.gif) !important;
+}
+.icon-no-group {
+	background-image:url(icon-no-group.gif) !important;
+}
+.task-views {
+	font-size: 12px;
+}
+.task-views {
+	border:0 none;
+}
+.task-views li {
+	margin:3px;
+}
+.task-views li img {
+	width:16px;
+	height:16px;
+	vertical-align:middle;
+	margin-right:2px;
+	margin-bottom:2px;
+}
+.task-views li { background: url(icon-no-group.gif) no-repeat 2px 50%; padding-left: 25px; }
+.task-views li a {
+	text-decoration:none;
+	color:#3764A0;
+}
+.task-views li a:hover {
+	text-decoration: underline;
+	color: #069; 
+	font-weight: bold;
+}
+.task-views li a.on {
+	color: #069; 
+	font-weight: bold;
+	
+}
+.task-views {
+	padding:3px 0 0 5px;
+} 
+
+#navhead { font-weight: normal; }
+#loadingbar { position: absolute; display: none; top: 100px; left: 40%; width: 220px; height: 20px; background:  url(loading.gif) repeat-x; }
+#framebar { background-color: #A2D4EB; }

@@ -1,0 +1,49 @@
+var menulist = {
+		"资源管理":{
+				"资源管理11":"container1.html",
+				"资源管理12":"container-2.html",
+				"资源管理13":"container-3.html",
+				"资源管理14":"container-4.html",
+				"资源管理15":"container-5.html",
+				"资源管理16":"container-6.html"
+			},
+		"模板管理":{
+				"模板管理11":"container.html",
+				"模板管理12":"container-2.html",
+			},	
+		"统计分析":{
+				"统计分析11":"container.html",
+				"统计分析12":"container-2.html",
+				"统计分析13":"container-3.html",
+				"统计分析14":"container-4.html",
+				"统计分析15":"container-5.html",
+				"统计分析16":"container-6.html"
+			},
+		"系统管理	":{
+				"系统管理11":"container.html",
+				"系统管理12":"container-2.html",
+				"系统管理13":"container-3.html",
+				"系统管理14":"container-4.html",
+				"系统管理15":"container-5.html",
+				"系统管理16":"container-6.html"
+			},
+		"运行状态":{
+				"运行状态11":"container.html",
+				"运行状态12":"container-2.html",
+				"运行状态13":"container-3.html",
+				"运行状态14":"container-4.html",
+				"运行状态15":"container-5.html",
+				"运行状态16":"container-6.html"
+			},
+		"系统帮助":{
+				"系统帮助11":"container.html",
+				"系统帮助12":"container-2.html",
+				"系统帮助13":"container-3.html",
+				"系统帮助14":"container-4.html",
+				"系统帮助15":"container-5.html",
+				"系统帮助16":"container-6.html"
+			}
+	}
+
+
+

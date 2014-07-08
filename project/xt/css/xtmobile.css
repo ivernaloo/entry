@@ -1,0 +1,349 @@
+body,div,h1,h2,h3,span,ul,li {
+    margin:0px;
+    padding: 0px;
+}
+img {
+    border: none;
+}
+body {
+    text-align: center;
+    background-color: #FAFAFA ;
+}
+.b-intro {
+    height: 1512px;
+    min-width: 960px;
+    background:  url(http://i1.ml.mi-img.com/img/miui/miuilite/img/mobile_bg.jpg) no-repeat 50% top;
+
+}
+.b-intro-con {
+    width: 712px;
+    height: 559px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+.e-btn-download {
+    position: absolute;
+    display: inline-block;
+    *display:  inline;
+    *zoom: 1;
+    left:0px;
+    top: 343px;
+    height: 124px;
+    width: 355px;
+    background: #66C200 url(http://i1.ml.mi-img.com/img/miui/miuilite/img/mobile-download.png) no-repeat 12% 50%;
+    background-size:40px auto;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-right: 1px solid #7DCB26;
+    text-decoration: none;
+    color: #fff;
+    font-family: "microsoft yahei",simhei;
+    font-size: 37px;
+    line-height: 124px;
+    text-indent: 110px;
+
+}
+.e-btn-download:hover {
+    background-color: #2D7F00;
+}
+.e-download-size {
+    font-size: 14px;
+}
+.e-btn-bbs {
+    position: absolute;
+    display: inline-block;
+    *display:  inline;
+    *zoom: 1;
+    left:356px;
+    top: 343px;
+    height: 124px;
+    width: 360px;
+    background: #66C200 url(http://i1.ml.mi-img.com/img/miui/miuilite/img/mobile-forum.png) no-repeat 12% 50%;
+    background-size:40px auto;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "microsoft yahei",simhei;;
+    font-size: 37px;
+    line-height: 124px;
+    text-indent: 110px;
+}
+.e-btn-bbs:hover {
+    background-color: #2D7F00;
+}
+.e-version {
+    position: absolute;
+    left: 0px;
+    top: 494px;
+    color: #ADD6E6;
+    font-size: 30px;
+    font-family: "microsoft yahei",simhei;
+}
+.e-2d {
+    position: absolute;
+    display: none;
+    left: 43px;
+    top: 257px;
+    width: 112px;
+}
+.e-describe {
+    position: absolute;
+    left: 0px;
+    top: 548px;
+    color: #ADD6E6;
+    font-family: "microsoft yahei",simhei;
+    font-size: 28px;
+}
+.e-describe a {
+    color: #ADD6E6;
+}
+.e-links {
+    /*position:  absolute;*/
+    /*left: 733px;*/
+    /*top: 15px;*/
+    float: right;
+    margin-top: 38px;
+    font-family: "microsoft yahei",simhei;
+    font-size: 24px;
+    margin-right: -28px;
+}
+.e-links a {
+    color: #ADD6E6;
+    text-decoration: none;
+    margin-right: 16px;
+}
+.e-links a:hover {
+    text-decoration: underline;
+}
+.e-dash {
+    /*    position: absolute;
+        top: 320px;
+        left: 333px;*/
+    line-height: 12px;
+    width: 1px;
+    height: 20px;
+    border-right: 1px solid #29A6D1;
+    margin-left: 3px;
+    margin-right: 7px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.b-feature {
+    overflow: hidden;
+    width: 960px;
+    margin: 55px auto 15px;
+    text-align: center;
+}
+.b-feature .first-item {
+    margin-left: 70px;
+}
+.b-item {
+    width: 628px;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 55px;
+}
+.e-feature-image {
+    width: 161px;
+    float: left;
+}
+.b-item h2 {
+    margin-left: 200px;
+    font-size: 42px;
+    font-family: "microsoft yahei",simhei;
+    color: #313131;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.b-item h2 a {
+    color: #000;
+    text-decoration: none;
+}
+.b-item p {
+    font-size: 26px;
+    text-align: left;
+    font-family: "microsoft yahei",simhei;
+    color: #878787;
+    margin: 0px;
+    margin-left: 200px;
+    line-height: 150%;
+}
+.e-feature-more {
+    vertical-align: middle;
+    margin-left: 2px;
+}
+.e-dash-horizontal {
+    border-bottom: 1px solid #E9E9E9;
+    height: 1px;
+    overflow: hidden;
+}
+.e-function-title {
+    font-family: "microsoft yahei",simhei;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #3E3E3E;
+}
+.e-function-con {
+    border: 1px solid #EDEDED;
+    padding: 0px 30px;
+    width: 240px;
+    margin: 0 auto;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.e-function-con a {
+    font-family: "microsoft yahei",simhei;
+    text-decoration: none;
+    display: block;
+    float: left;
+    color: #3F3F3F;
+    width: 119px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+.e-function-con a:hover {
+    text-decoration: underline;
+}
+.e-function-con a.first-item {
+    border-right: 1px solid #ededed;
+}
+.e-link {
+    overflow: hidden;
+    list-style: none;
+    width: 380px;
+    margin: 25px auto;
+}
+.e-link li {
+    float: left;
+    margin-left: 20px;
+}
+.e-link li a {
+    font-family: "microsoft yahei",simhei;
+    font-size: 26px;
+    text-decoration: none;
+    color: #979797;
+    vertical-align: middle;
+}
+.e-link li a img {
+    vertical-align: middle;
+}
+.e-link li a:hover {
+    text-decoration: underline;
+}
+.b-compatible {
+    overflow: hidden;
+    width: 960px;
+    margin: 33px auto 38px;
+}
+.left {
+    float: left;
+    overflow: hidden;
+}
+.right {
+    float: right;
+    overflow: hidden;
+}
+.b-compatible {
+    position: relative;
+    width: 712px;
+}
+.b-compatible .system {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:0px;
+    height: 0px;
+    overflow: hidden;
+    line-height: 0px;
+    font-size:0px;
+}
+.b-compatible h2 {
+    text-align: left;
+    font-size: 18px;
+    font-family: "microsoft yahei",simhei;
+    color: #313131;
+    margin-bottom: 15px;
+}
+.b-compatible p {
+    text-align: left;
+    font-size: 12px;
+    font-family: "microsoft yahei",simhei;
+    color: #878787;
+    margin: 0px;
+    line-height: 180%;
+}
+.b-compatible .right {
+    width: 195px;
+}
+.b-compatible .first-item  {
+    margin-left: 157px;
+    margin-right: 90px;
+}
+.b-compatible-con {
+    overflow: hidden;
+    margin-bottom: 85px;
+    margin-left: 35px;
+}
+.b-compatible-describe {
+    margin-left: 60px;
+
+}
+.b-compatible-describe h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+.b-compatible-describe p {
+    font-size: 21px;
+}
+.e-tindex-18 {
+    text-indent: -18px;
+}
+.wx-tip {
+    position: absolute;
+    left: 50%;
+    width: 600px;
+    margin-left: -300px;
+    border: 1px solid #ccc;
+    background: #fff;
+    z-index: 999;
+    text-align: left;
+    line-height:   250%;
+    border-radius: 0px 0px 25px 25px;
+    display: none;
+}
+.wx-tip h2 {
+    font-family: "microsoft yahei",simhei;
+}
+.wx-tip h2, .wx-tip p {
+    margin: 0px;
+    text-indent: 1em;
+}
+.wx-tip p {
+    margin-bottom: 10px;
+}
+.wx-tip p img {
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    padding: 1px;
+}
+.wx-mask {
+    position: absolute;
+    width :100%;
+    height: 600%;
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 998;
+    display: none;
+}
+.wx-guide {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}

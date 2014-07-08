@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>内容栏</title>
+<link href="img/style.css" rel="stylesheet" type="text/css" />
+<link href="img/container.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<table class="container-box" width="100%" border="0" cellspacing="1" cellpadding="0">
+  <tr>
+    <td bgcolor="#FFFFFF">
+    	<div class="container-title">
+        	<div class="left">模块</div>
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td bgcolor="#FFFFFF">
+    	<table width="100%" border="0" class="table-list table-decoration-search" cellspacing="0" cellpadding="0">
+              <tr>
+                    <td width="14%" class="count-title" name="id">id<span class="count-title-des">(模块ID)</span></td>
+                    <td width="29%"><input type="text" name=""/><span class="count-title-des">(自动编号)</span></td>
+                    <td width="15%" class="count-title">name<span class="count-title-des">(模块名)</span></td>
+                    <td width="42%"><input type="text" name="name"/><span class="count-title-des">(50个字以内)</span></td>
+                  </tr>
+                  <tr>
+                    <td class="count-title">categoryId<span class="count-title-des">(所属分类编号)</span></td>
+                    <td><input type="text" name="categoryId"/><span class="count-title-des">(所属分类编号)</span></td>
+                    <td class="count-title">type<span class="count-title-des">(模块类型)</span></td>
+                    <td><input type="text" name="type"/><span class="count-title-des">(50个字以内)</span></td>
+                  </tr>
+                  <tr>
+                    <td class="count-title">className<span class="count-title-des">(外层样式类)</span></td>
+                    <td><input type="text" name="className"/><span class="count-title-des">(50个字以内)</span></td>
+                    <td class="count-title">isLayoutFixed<span class="count-title-des">(是否固定布局)</span></td>
+                    <td><input type="text" name="isLayoutFixed"/></td>
+                  </tr>
+                  <tr>
+                    <td class="count-title">availableIn<span class="count-title-des">(id)</span></td>
+                    <td><input type="text" name="availableIn"/><span class="count-title-des">(150个字以内)</span></td>
+                    <td class="count-title">preview<span class="count-title-des">(预览图URL)</span></td>
+                    <td><input type="text" name="preview"/>
+                      <span class="count-title-des">(上传)</span></td>
+                  </tr>
+                  <tr>
+                    <td class="count-title">前端模板<span class="count-title-des">(id)</span></td>
+                    <td><textarea class="table-textArea" name="id"></textarea></td>
+                    <td class="count-title">preset<span class="count-title-des">(预设模块)</span></td>
+                    <td><textarea name="preset" class="table-textArea"></textarea></td>
+                  </tr>
+                  <tr>
+                    <td class="count-title">vtl<span class="count-title-des">(velocity模板)</span></td>
+                    <td><textarea name="vtl" class="table-textArea"></textarea></td>
+                    <td class="count-title">simData<span class="count-title-des">(模拟数据)</span></td>
+                    <td><textarea name="simData" class="table-textArea"></textarea></td>
+                  </tr>
+                  <tr>
+                    <td width="14%" class="count-title">&nbsp;</td>
+                    <td colspan="3"><input type="button" class="search-btn" value="生成"/><input type="button" class="search-btn" value="解析"/><input type="button" class="search-btn" value="清空参数"/>
+          <input type="button" class="search-btn" value="清空结果"/></td>
+                  </tr>
+        </table>
+</td>
+  </tr>
+ </table>
+<script type="text/javascript" src="img/jquery-1.3.2.js"></script>
+<script type="text/javascript" src="resouce/javascript/trAlternate.js"></script>
+</body>
+</html>

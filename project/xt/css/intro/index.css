@@ -1,0 +1,87 @@
+
+.header_on{ background: white url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_9.png) no-repeat center top; height: 731px; min-width: 980px; }
+.header{ width: 960px; height: 731px; margin: 0 auto; position: relative; min-width: 960px; }
+.more_miui{ position: absolute; left: 21px; top: 404px; width: 170px; overflow: hidden; height: 47px; background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_10.png); }
+.more_miui a{ float: left; display: block; }
+.to_more{ height: 45px; width: 170px; margin: 1px 13px 0 0 ; }
+a.to_more:hover{  background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_14.png) 0 -1px; }
+.to_miui{ height: 47px; width: 172px; }
+a.to_miui:hover{  background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_14.png) right top; }
+.video_weibo{ position: absolute; left: 22px; top: 582px; width: 660px; height: 90px; }
+.video{ width: 144px; height: 90px; float: left; margin-right: 32px; cursor: pointer; }
+.weibo{ width: 460px; height: 72px; float: left; padding-top: 18px; }
+.weibo p{ font-size: 15px; color: #595959; line-height: 20px; margin-bottom: 8px; }
+.weibo p a{ font-size: 15px; color: #f3582e; }
+.weibo p a:hover{ text-decoration: underline; }
+.weibo div{ width: 154px; height: 36px; font-size: 12px; color: #eb6100; text-align: center; line-height: 36px; cursor: pointer; }
+.video_contain{ height: 585px; width: 960px; position: absolute; left: 0; top: 0; display: none; z-index: 9999; }
+.video_close{ position: absolute; right:10px; top: 10px; cursor: pointer;}
+
+
+.body_on{ height: 1660px; padding: 70px 0; background-color: #f2f2f2; }
+.body{ width: 960px; margin: 0 auto; }
+.bd_part_0{ width: 958px; border: 1px solid #d5d5d5; margin-bottom: 70px; background-color: white; border-radius: 8px; }
+.bp0_header{ height: 185px; border-bottom: 1px solid #d5d5d5; text-align: center; }
+.bp0_header h2{ color: #595959; font-size: 36px; line-height: 80px; padding-top: 30px; font-weight: bold; }
+.bp0_header p{ color: #828282; font-size: 14px; }
+
+.functions{ height: 160px; width: 750px; margin: 0 auto; padding: 60px 0 50px 30px; }
+.functions li{ width: 100px; float: left; height: 160px; margin-right: 30px; padding: 0 10px; background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_13.png) no-repeat -9999px 0; }
+li.li_hover_0{ background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_13.png) no-repeat -5px 10px; }
+li.li_hover_1{ background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_13.png) no-repeat -155px 10px; }
+li.li_hover_2{ background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_13.png) no-repeat -305px 10px; }
+li.li_hover_3{ background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_13.png) no-repeat -455px 10px; }
+li.li_hover_4{ background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_13.png) no-repeat -606px 10px; }
+.func{ background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_1.png) no-repeat; padding-top: 120px; text-align: center; font-size: 12px; cursor: pointer; }
+.func_0{ background-position: 8px 20px; }
+.func_1{ background-position: -142px 20px; }
+.func_2{ background-position: -292px 20px; }
+.func_3{ background-position: -442px 20px; }
+.func_4{ background-position: -592px 20px; }
+.func h3{ color: #5a5a5a; font-weight: bold; line-height: 20px; }
+.func p{ color: #929292; line-height: 16px; }
+
+.lists{ width: 840px; height: 610px; overflow: hidden; margin: 0 auto; padding-bottom: 50px; position: relative; }
+.lists_contain{  width: 4200px; height: 610px; position: absolute; left: 0; top: 0; }
+.list{ width: 840px; height: 610px; background-position: 15px 35px; background-repeat: no-repeat; float: left; position: relative; }
+.list h4{ position: absolute; left: 546px; top: 160px; color: #282828; font-size: 30px; font-weight: bold; }
+.list p{ position: absolute; left: 550px; top: 220px; color: #282828; font-size: 14px; width: 200px; line-height: 22px; }
+.list_0{ background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_6.png) no-repeat center top;; }
+.list_0 h4{  left: 320px; top: 540px; text-align: center; width: 200px; }
+.list_0 p{ left: 200px; top: 585px; width: 440px; text-align: center;  }
+.list_1{ background-image: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_2.png); }
+.list_2{ background-image: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_4.png); }
+.list_3{ background-image: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_3.png); }
+.list_4{ background-image: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_5.png); }
+
+.left_right{ height: 0; position: relative; width: 840px; margin: 0 auto; }
+.lists_left{ position: absolute; left: -22px; top: 264px; cursor: pointer; }
+.lists_right{ position: absolute; right: -22px; top: 264px; cursor: pointer; }
+
+
+.bd_part_1{ height: 460px; border: 1px solid #d5d5d5; border-radius: 8px; position: relative; background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_0.png) no-repeat 420px 46px; background-color: white; }
+.bd_part_1 h3{ position: absolute; left: 65px; top: 150px; font-size: 36px; font-weight: bold; color: #3f4352; }
+.bd_part_1 p{ position: absolute; left: 70px; top: 210px; color: #777981; line-height: 20px; font-size: 14px; }
+.bd_part_1 p a{ color: #eb6100; font-size: 12px; line-height: 40px; }
+
+.footer_on{ background-color: #353535; height: 176px; }
+.footer p{ text-align: center; color: #aeaeae; font-size: 12px; line-height: 24px; padding-top: 65px; }
+
+
+
+/*dialog*/
+#chooses{  }
+#chooses p{ background: url(http://i1.ml.mi-img.com/img/miui/miuilite/img/intro2/index_12.png) no-repeat -30px -60px; padding-left: 40px; height: 40px; line-height: 40px; color: #828282; position: absolute; cursor: pointer; }
+.p_0{ left: 110px; top: 160px; width: 120px; }
+.p_1{ left: 360px; top: 160px; width: 180px; }
+.p_2{ left: 658px; top: 160px; width: 140px; }
+.p_3{ left: 210px; top: 355px; width: 165px; }
+.p_4{ left: 548px; top: 355px; width: 100px; }
+.p_click{ background-position: -30px 4px !important; }
+
+
+
+
+
+
+

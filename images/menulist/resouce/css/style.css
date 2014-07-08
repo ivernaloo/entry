@@ -1,0 +1,23 @@
+/* global */
+body,h1,h2,h3,h4,h5,h6,p { background-color: #A2D4EB; font-family: Arial, Helvetica, sans-serif; margin: 0px; padding: 0px; text-align: center; }
+a:hover { text-decoration: underline; }
+ul,li { padding: 0px; margin: 0px; list-style: none; list-style-position:outside; text-align: left; }
+.left { float:left; }
+.right { float: right; }
+img { border: none; }
+/* form */
+.form { width: 754px; margin: 0 auto; }
+.bg-1 { height: 235px; background:url(../image/img_11.jpg); position: relative;  }
+
+.help-bar { margin-top: 50px; text-align: right; }
+.help-bar a { color: #000; text-decoration: none; font-size: 12px; margin-right: 15px; }
+.help-bar a:Hover { color: #c00; text-decoration: underline; }
+
+.form-1 { position: absolute; width: 235px; left:490px; top: 15px; }
+.input-1 { margin-left: 10px; border: 1px solid #ccc; background-color: #fff; width: 120px; }
+input:hover.input-1 { border: 1px solid #39C; background-color: #FFC; }
+input.search-btn {  margin-left: 10px;background: url(../image/search-btn.png) no-repeat; height: 22px; width: 79px; border:none; }
+input:hover.search-btn { border: none; background: url(../image/search-btn-o.png) no-repeat;  }
+.bottom-bar { color: #666; font-size: 12px; text-align: left; }
+/* position */
+.m5 { margin: 5px; }
