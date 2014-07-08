@@ -117,9 +117,9 @@
     <span class="blank9"></span>
     <ul class="cDGray f14bla">
         <li><a href="https://www.google.com/calendar/render">Google 日历</a></li>
-        <li><a href="tools/jsBeautify/index.html">JS Beautify</a></li>
-        <li><a href="tools/jsonlint/index.html">JSON Lint</a></li>
-        <li><a href="tools/convert/convert.html">String Convert</a></li>
+        <li><a href="project/tools/jsBeautify/index.html">JS Beautify</a></li>
+        <li><a href="project/tools/jsonlint/index.html">JSON Lint</a></li>
+        <li><a href="project/tools/convert/convert.html">String Convert</a></li>
         <li><a href="http://tinyurl.duapp.com/">短地址</a></li>
 
     </ul>
