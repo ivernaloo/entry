@@ -20,7 +20,6 @@
                 <li><a href="http://evo.xiaomi.com/theme.jsp?theme_id=10001&theme_status=1&userId=2234383&debug=local">主题编辑</a></li>
                 <li><a href="http://evo.xiaomi.com/csp.jsp?theme_id=10001&step_id=13&theme_status=1&userId=2234383&debug=local">CSP编辑</a></li>
                 <li><a href="http://evo.xiaomi.com/pub.jsp?theme_id=10001&theme_status=1&userId=2234383&debug=local">配制预览</a></li>
-        <li>MISC</li>
         <li><a href="project/colorRender/index.html">取色器</a></li>
     </ul>
 </div>
@@ -39,6 +38,20 @@
     </ul>
 </div>
 <div class="widget-1">
+    <h2>Debug</h2>
+    <span class="blank9"></span>
+    <ul class="cDGray f14bla" >
+        <li><a href="project/study/colorRender/index.html">取色器</a></li>
+        <li><a href="project/study/multiupload/upload.html">多文件上传</a></li>
+    </ul>
+</div><div class="widget-1">
+    <h2>Code</h2>
+    <span class="blank9"></span>
+    <ul class="cDGray f14bla" >
+        <li><a href="">Github Explore</a></li>
+    </ul>
+</div>
+<div class="widget-1">
     <h2>工具</h2>
     <span class="blank9"></span>
     <ul class="cDGray f14bla" >
@@ -46,7 +59,8 @@
         <li><a href="http://mhtml5.sinaapp.com/zuowei/index.html">canvas</a></li>
 
     </ul>
-</div><div class="widget-1">
+</div>
+<div class="widget-1">
     <h2>性能测试</h2>
     <span class="blank9"></span>
     <ul class="cDGray f14bla" >
@@ -123,7 +137,6 @@
     <h2>活动</h2>
     <span class="blank9"></span>
     <ul class="cDGray f14bla">
-        <li><a href="http://www.lanhan.cn/">懒汉</a></li>
         <li><a href="http://www.freelancer.com/">Lancer</a></li>
     </ul>
 </div>

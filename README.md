@@ -1,4 +1,4 @@
-entry
+Entry
 =====
 
-use as a individual portal
+Developing a individual portal for effciency purpose
