@@ -66,7 +66,6 @@
     <ul class="cDGray f14bla" >
         <li><a href="project/seat/seat.html">DOM</a></li>
         <li><a href="http://mhtml5.sinaapp.com/zuowei/index.html">canvas</a></li>
-
     </ul>
 </div>
 
@@ -96,6 +95,7 @@
         <li><a href="http://wiki.n.miui.com/">Confluence</a></li>
         <li><a href="http://wiki.mioffice.cn/">wiki</a></li>
         <li><a href="http://jira.n.xiaomi.com">jira</a></li>
+        <li><a href="research/lib/jquery/index.html">Anotated Jquery</a></li>
     </ul>
 </div>
 <div class="widget-1">
